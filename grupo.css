@@ -1,0 +1,26 @@
+body {
+    background-color:orangered;
+    margin: 0%;
+    padding: 0%;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+    color: aliceblue;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+@media (max-width: 700px) { 
+    
+    H2{
+        color: brown;
+    }
+    image{
+        height: 50px;
+    }
+ }
