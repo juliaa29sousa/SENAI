@@ -1,1 +1,100 @@
+body{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+   text-decoration: none;
+}
+section{
+    padding: 2%;
+}
+.capa{
+    color: rgb(0, 0, 0);
+    height: 500px;
+    background-color: rgb(171, 13, 13);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+.capa1{
+    text-align: left;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.portifolio{
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo{
+    width: auto;
+    height: 150px;
+}
+.p1{
+    /* flex: 1; */
+    text-align: center;
+}
+/* .grupo2{
+    display: inline-flex;
+    justify-content: space-between;
+} */
+    h1{
+            font-size: 100px;
+            text-align: center;
+            text-transform: uppercase;
+    }
+    .perfil{
+        width: 400px;
+    }
+  /*   .grupos{
+        display: flex;
+        justify-content: space-around;
+    }
+ */
+.grupo4{
+    height: 80vh;
+    background-color: rgb(171, 7, 7);
+}
+.sobre, .grupo2{
+    display: flex;
+   /*  justify-content: space-around; */
+   gap: 200px;
+   height: 80vh;
 
+}
+.grupos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+/* .grupo{
+   height: 150px;
+
+} */
+.grupo-re{
+    height: auto;
+    width: 500px;
+}
+.grupo-qua{
+    height: auto;
+    width: 300px;
+}
+.logo3{
+    height: auto;
+    width: 150px;
+}
+/* .grupos{
+   flex:0 0 20%;
+   margin: 30px;
+} */
